@@ -1,0 +1,3 @@
+passed = 0.0
+    passed += int(startingpoint.check())
+print str(num) + " trys, " + str(passed) + " passes, " + str((passed/num)*100) + "%"
