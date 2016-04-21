@@ -1,4 +1,5 @@
-from __future__ import division
+#!/usr/bin/env python3
+
 import math
 import random
 
@@ -19,7 +20,7 @@ class RandPoint(object):
         return self.x ** 2 + self.y ** 2 < 1 ** 2 # Last exponent added for clarity
 
 passed = 0
-num = int(raw_input("How many trials would you like? \n"))
+num = int(input("How many trials would you like? \n"))
 
 for _ in range(num):
     startingpoint = RandPoint()
